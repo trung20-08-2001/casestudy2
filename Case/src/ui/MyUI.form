@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ui.MyUI">
+  <grid id="27dc6" binding="caseStudy" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="18" y="23" width="801" height="2335"/>
+    </constraints>
+    <properties>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="264bb" binding="pageRegister" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10420371"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="dab27" layout-manager="GridLayoutManager" row-count="18" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="db8d2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="24" style="1"/>
+                  <text value="Đăng kí"/>
+                </properties>
+              </component>
+              <component id="a6d3f" class="javax.swing.JLabel" binding="newAccountName">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="New account name:"/>
+                </properties>
+              </component>
+              <component id="c1601" class="javax.swing.JTextField" binding="inputNewAccount">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="-1" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <focusCycleRoot value="false"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <font size="20"/>
+                  <margin top="2" left="6" bottom="2" right="6"/>
+                  <text value=""/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="true"/>
+                </clientProperties>
+              </component>
+              <component id="4f236" class="javax.swing.JLabel" binding="newPassword">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="New password:"/>
+                </properties>
+              </component>
+              <component id="1b61" class="javax.swing.JPasswordField" binding="inputNewPassword">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <hspacer id="6867">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="31" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="69af2" class="javax.swing.JLabel" binding="noteNewAccount">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Tên tài khoản không hợp lệ."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="eba1f" class="javax.swing.JLabel" binding="noteNewPassword1">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Mật khẩu cần ít nhất 8 kí tự bao gồm: "/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="d27b9" class="javax.swing.JLabel" binding="noteNewPassword2">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="số, chữ hoa, chữ thường, kí tự đặc biệt và không có dấu câu."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="1161" class="javax.swing.JButton" binding="exit">
+                <constraints>
+                  <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <text value="Quay lại"/>
+                </properties>
+              </component>
+              <component id="7e1cf" class="javax.swing.JButton" binding="clear">
+                <constraints>
+                  <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <text value="Xóa"/>
+                </properties>
+              </component>
+              <component id="db460" class="javax.swing.JLabel" binding="fullName">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="Full Name:"/>
+                </properties>
+              </component>
+              <component id="d5353" class="javax.swing.JLabel" binding="address">
+                <constraints>
+                  <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="Address:"/>
+                </properties>
+              </component>
+              <component id="d7687" class="javax.swing.JLabel" binding="age">
+                <constraints>
+                  <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="Age:"/>
+                </properties>
+              </component>
+              <component id="a350c" class="javax.swing.JTextField" binding="inputFullName">
+                <constraints>
+                  <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="e2163" class="javax.swing.JTextField" binding="inputAddress">
+                <constraints>
+                  <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="813dc" class="javax.swing.JTextField" binding="inputAge">
+                <constraints>
+                  <grid row="13" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="5a83d" class="javax.swing.JButton" binding="register">
+                <constraints>
+                  <grid row="17" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="18"/>
+                  <text value="Đăng kí"/>
+                </properties>
+              </component>
+              <component id="3be88" class="javax.swing.JLabel" binding="noteFullName">
+                <constraints>
+                  <grid row="10" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Nhập đầy đủ họ tên. Ví dụ: Lê Văn A, Phạm A"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="5b6be" class="javax.swing.JLabel" binding="noteAddress">
+                <constraints>
+                  <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Cú pháp địa chỉ không đúng."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="4d9de" class="javax.swing.JLabel" binding="noteAge">
+                <constraints>
+                  <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="true"/>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Tuổi phải là một số lớn hơn 0 nhỏ hơn 130"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="6a68c" class="javax.swing.JLabel" binding="phone">
+                <constraints>
+                  <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="Phone:"/>
+                </properties>
+              </component>
+              <component id="86392" class="javax.swing.JTextField" binding="inputPhone">
+                <constraints>
+                  <grid row="15" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4b34e" class="javax.swing.JLabel" binding="notePhone">
+                <constraints>
+                  <grid row="16" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Số điện thoại không hợp lệ."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="c2062" class="javax.swing.JLabel" binding="codeEmployee">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="18" style="1"/>
+                  <text value="Code Employee"/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="f8c6a" class="javax.swing.JTextField" binding="inputCodeEmployee">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="35"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value=""/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="1ce72" class="javax.swing.JLabel" binding="noteCodeEmployee">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Mã nhân viên không hợp lệ."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="382a9" binding="pageLoginOrRegister" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10420371"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7fab2" binding="JPanel" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <preferredSize width="500" height="250"/>
+              <requestFocusEnabled value="true"/>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="3eb86" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="24" style="1"/>
+                  <text value="XIN CHÀO"/>
+                </properties>
+              </component>
+              <component id="f876a" class="javax.swing.JLabel" binding="passwordText">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="24" style="1"/>
+                  <text value="Password&#10;"/>
+                </properties>
+              </component>
+              <component id="fe75f" class="javax.swing.JPasswordField" binding="inputPassword">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="e2ade" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Bạn chưa có tài khoản?"/>
+                </properties>
+              </component>
+              <component id="7d2a8" class="javax.swing.JTextField" binding="inputAccount">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="30"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                </properties>
+              </component>
+              <component id="9fda7" class="javax.swing.JLabel" binding="accountText">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="24" style="1"/>
+                  <text value="Account"/>
+                </properties>
+              </component>
+              <component id="5e9e7" class="javax.swing.JLabel" binding="noteAccount">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Tên tài khoản không hợp lệ."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="18b6c" class="javax.swing.JLabel" binding="notePassword1">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="Mật khẩu cần ít nhất 8 kí tự bao gồm: "/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="6b05a" class="javax.swing.JLabel" binding="notePassword2">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial" size="10" style="3"/>
+                  <foreground color="-114134"/>
+                  <text value="số, chữ hoa, chữ thường, kí tự đặc biệt và không có dấu câu."/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+              <component id="55350" class="javax.swing.JButton" binding="buttonRegister">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <alignmentX value="1.0"/>
+                  <alignmentY value="1.0"/>
+                  <font size="20"/>
+                  <text value="Đăng kí"/>
+                </properties>
+              </component>
+              <component id="61983" class="javax.swing.JButton" binding="buttonLogin">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <text value="Đăng nhập"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="27dd0" binding="pageNurse" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-10420371"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="463f9" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="800" height="500"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="936e8" binding="menuNurse" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <inheritsPopupMenu value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="66c28" class="javax.swing.JButton" binding="resultExamine">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Viết kết quả xét nghiệm"/>
+                    </properties>
+                  </component>
+                  <component id="ea6e9" class="javax.swing.JButton" binding="logoutNurse">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đăng xuất"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="79560" binding="pageWorkOfNurse" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="1beb3" class="javax.swing.JLabel" binding="codeCustomerPageNurse">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Mã khách hàng"/>
+                    </properties>
+                  </component>
+                  <vspacer id="a9b2c">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="375ea" class="javax.swing.JTextField" binding="inputCodeCustomerPageNurse">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="bf0c4" class="javax.swing.JTextArea" binding="writeResultExamnice">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="d42a" class="javax.swing.JButton" binding="finish">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Hoàn thành"/>
+                    </properties>
+                  </component>
+                  <component id="3cdb6" class="javax.swing.JLabel" binding="noteCodeCustomerOfNurse">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="10" style="3"/>
+                      <foreground color="-114134"/>
+                      <text value="Mã không hợp lệ"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="53ec6" class="javax.swing.JButton" binding="remove">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xóa"/>
+                    </properties>
+                  </component>
+                  <component id="9b919" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Kết quả kiểm tra"/>
+                    </properties>
+                  </component>
+                  <component id="7abf3" class="javax.swing.JLabel" binding="payment">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Viện phí"/>
+                    </properties>
+                  </component>
+                  <component id="73a91" class="javax.swing.JTextField" binding="inputPaymentAmount">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="81797" binding="pageAdmin" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10420371"/>
+          <foreground color="-12828863"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="bdc29" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="1200" height="600"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <foreground color="-4473925"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="a91b5" binding="menuAdmin" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                    <preferred-size width="100" height="600"/>
+                  </grid>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="38e68" class="javax.swing.JButton" binding="createdCodeEmployee">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Tạo mã nhân viên"/>
+                    </properties>
+                  </component>
+                  <component id="e5d06" class="javax.swing.JButton" binding="showListCustomer">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xem danh sách khách hàng"/>
+                    </properties>
+                  </component>
+                  <component id="73860" class="javax.swing.JButton" binding="showListEmployee">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xem danh sách nhân viên"/>
+                    </properties>
+                  </component>
+                  <component id="e6d06" class="javax.swing.JButton" binding="deleteEmployee">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xóa nhân viên"/>
+                    </properties>
+                  </component>
+                  <component id="86490" class="javax.swing.JButton" binding="logoutAdmin">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đăng xuất"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="2eccc" binding="pageCreatedEmployee" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="800" height="600"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="c8af2" class="javax.swing.JButton" binding="createdCodeNurse">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Tạo mã của y tá"/>
+                      <verifyInputWhenFocusTarget value="true"/>
+                    </properties>
+                  </component>
+                  <component id="65c54" class="javax.swing.JTextField" binding="displayCodeEmployee">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="a7056" class="javax.swing.JButton" binding="createdCodeDoctor">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Tạo mã của bác sĩ"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="2dd" binding="pageListEmployee" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="75e36" binding="pageListCustomer" layout-manager="CardLayout" hgap="0" vgap="0">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="9055a" binding="pageDeleteEmployee" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="800" height="100"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <focusable value="true"/>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d65a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Mã nhân viên cần xóa"/>
+                    </properties>
+                  </component>
+                  <component id="a5bfe" class="javax.swing.JTextField" binding="inputCodeEmployeeDelete">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="3d54b" class="javax.swing.JButton" binding="delete">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xóa"/>
+                    </properties>
+                  </component>
+                  <component id="e56a2" class="javax.swing.JLabel" binding="note">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="10" style="3"/>
+                      <foreground color="-114134"/>
+                      <text value="Mã không hợp lệ"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="78d1d" binding="pageCustomer" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10420371"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="f3495" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="1300" height="500"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="32fff" binding="pageCustomerHistory" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <visible value="true"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f120c" class="javax.swing.JLabel" binding="emptyHistory">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="24" style="3"/>
+                      <foreground color="-114134"/>
+                      <text value="Lịch sử trống."/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <grid id="5c641" binding="pageDisplaytable" layout-manager="BorderLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="76f3e" binding="menuCustomer" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-11600157"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="67004" class="javax.swing.JButton" binding="displayInformation">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Lịch sử khám bệnh."/>
+                    </properties>
+                  </component>
+                  <component id="f5a34" class="javax.swing.JButton" binding="bookDoctor">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đặt lịch khám"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="3afc" class="javax.swing.JButton" binding="logoutCustomer">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đăng xuất"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="d62f2" binding="pageInformationDoctor" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="ce838" binding="pageBookDoctor" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="2b8dd" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Nhập mã bác sĩ tại đây"/>
+                    </properties>
+                  </component>
+                  <component id="ebf6d" class="javax.swing.JTextField" binding="inputCodeDoctor">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="cf538" class="javax.swing.JButton" binding="buttonBookDoctor">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đặt lịch "/>
+                    </properties>
+                  </component>
+                  <component id="a5e5d" class="javax.swing.JButton" binding="xoaButton">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xóa"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="b1eec" binding="pageDoctor" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-10420371"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="dd2e3" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="800" height="600"/>
+              </grid>
+            </constraints>
+            <properties>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="b84ac" binding="menuDoctor" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="7c87a" class="javax.swing.JButton" binding="addMedicine">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Kê đơn thuốc"/>
+                    </properties>
+                  </component>
+                  <component id="282ba" class="javax.swing.JButton" binding="showCalendarDoctor">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <label value="Lịch khám"/>
+                      <text value="Lịch khám"/>
+                      <visible value="true"/>
+                    </properties>
+                  </component>
+                  <component id="87fbc" class="javax.swing.JButton" binding="logoutDoctor">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đăng xuất"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a477b" binding="pageFindCustomer" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="787e3" class="javax.swing.JLabel" binding="findCodeCustomerText">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Nhập mã khách hàng"/>
+                    </properties>
+                  </component>
+                  <component id="4e818" class="javax.swing.JTextField" binding="inputCodeCustomer">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="35"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="a04c4" class="javax.swing.JLabel" binding="noteInputCodeCustomer">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="20" style="3"/>
+                      <foreground color="-114134"/>
+                      <text value="Mã không chính xác"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="b37cc" class="javax.swing.JButton" binding="clearCodeCustomer">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xóa"/>
+                    </properties>
+                  </component>
+                  <component id="e9153" class="javax.swing.JButton" binding="findCodeCustomer">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Tìm"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f9dd8" binding="pageWriteMedicineList" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <visible value="false"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="53558" class="javax.swing.JLabel" binding="medicineListText">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Đơn thuốc cho khách hàng"/>
+                    </properties>
+                  </component>
+                  <component id="6a8cd" class="javax.swing.JTextArea" binding="medicineList">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="2" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="-1" height="270"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                    </properties>
+                  </component>
+                  <component id="fbed2" class="javax.swing.JLabel" binding="re_examinationDate">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Ngày khám lại"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="d2897" class="javax.swing.JTextField" binding="inputRe_examinationDate">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <visible value="false"/>
+                    </properties>
+                  </component>
+                  <component id="1b3c7" class="javax.swing.JButton" binding="buttonConfirmMedicine">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                        <preferred-size width="78" height="32"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Xác nhận"/>
+                    </properties>
+                  </component>
+                  <grid id="69724" binding="pageInformationCustomer" layout-manager="CardLayout" hgap="0" vgap="0">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children/>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="65dce" binding="pageCalendar" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="89bb" class="javax.swing.JTextArea" binding="calendarDoctor">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="50"/>
+                      </grid>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttontypeEmployee">
+      <member id="cf38"/>
+      <member id="6cd77"/>
+    </group>
+    <group name="buttonTypeAccount">
+      <member id="81d88"/>
+      <member id="baa28"/>
+      <member id="105a"/>
+    </group>
+  </buttonGroups>
+</form>
